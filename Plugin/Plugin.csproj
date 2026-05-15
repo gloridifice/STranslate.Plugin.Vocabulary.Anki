@@ -13,11 +13,11 @@
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-        <OutputPath>..\..\.artifacts\Debug\Plugins\STranslate.Plugin.Vocabulary.Anki\</OutputPath>
+        <OutputPath>..\artifacts\Debug\Plugins\STranslate.Plugin.Vocabulary.Anki\</OutputPath>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-        <OutputPath>..\..\.artifacts\Release\Plugins\STranslate.Plugin.Vocabulary.Anki\</OutputPath>
+        <OutputPath>..\.artifacts\Release\Plugins\STranslate.Plugin.Vocabulary.Anki\</OutputPath>
     </PropertyGroup>
 
     <ItemGroup>

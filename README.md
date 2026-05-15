@@ -2,7 +2,7 @@
 
 **[English Version](README_EN.md)**
 
-> 声明：本项目由 DeepSeek v4 Pro 生成，并由我轻微校对和测试。若发现错误，尽管提交 Issue.
+> 声明：本项目由 DeepSeek v4 Pro 生成，并由我轻微校对和测试。若发现错误，欢迎提交 Issue.
 
 将 STranslate 翻译结果一键保存为 [Anki](https://apps.ankiweb.net/) 卡片。
 
@@ -46,4 +46,5 @@
 dotnet build Plugin\Plugin.csproj
 ```
 
-插件生成在 `../.artifacts` 目录下。
+插件生成在 `.artifacts` 目录下。
+`.spkg` 生成在 `.artifacts/.../STranslate.Plugin.Vocabulary.Anki/plugins/`
